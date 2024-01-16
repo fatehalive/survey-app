@@ -1,0 +1,185 @@
+{
+    "pages": [
+        {
+            "name": "p1",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q1",
+                    "title": "Apa peran utama Human Resources dalam sebuah organisasi?",
+                    "choices": [
+                        "Menangani keuangan perusahaan", 
+                        "Mengelola sumber daya manusia dan hubungan kerja", 
+                        "Merancang produk dan layanan"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Mengelola sumber daya manusia dan hubungan kerja",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p2",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q2",
+                    "title": "Apa yang dimaksud dengan onboarding dalam konteks Human Resources?",
+                    "choices": [
+                        "Proses perekrutan karyawan", 
+                        "Proses integrasi dan orientasi karyawan baru", 
+                        "Penilaian kinerja karyawan"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Proses integrasi dan orientasi karyawan baru",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p3",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q3",
+                    "title": "Apa tujuan dari proses seleksi karyawan?",
+                    "choices": [
+                        "Mengurangi produktivitas perusahaan", 
+                        "Menemukan karyawan yang sesuai dengan kebutuhan perusahaan", 
+                        "Menetapkan gaji karyawan"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Menemukan karyawan yang sesuai dengan kebutuhan perusahaan",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p4",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q4",
+                    "title": "Apa fungsi dari pelatihan dan pengembangan karyawan?",
+                    "choices": [
+                        "Menentukan gaji karyawan", 
+                        "Mengembangkan keterampilan dan pengetahuan karyawan", 
+                        "Menangani konflik di tempat kerja"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Mengembangkan keterampilan dan pengetahuan karyawan",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p5",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q5",
+                    "title": "Apa yang dimaksud dengan 'diversitas' dalam konteks HR?",
+                    "choices": [
+                        "Keseragaman dalam latar belakang karyawan", 
+                        "Keterlibatan karyawan dalam kegiatan sosial", 
+                        "Keberagaman dalam latar belakang, pengalaman, dan karakteristik karyawan"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Keberagaman dalam latar belakang, pengalaman, dan karakteristik karyawan",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p6",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q6",
+                    "title": "Apa peran dari departemen kompensasi dan manfaat dalam HR?",
+                    "choices": [
+                        "Menetapkan aturan dan regulasi perusahaan", 
+                        "Mengelola gaji dan manfaat karyawan", 
+                        "Menyusun kebijakan perekrutan"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Mengelola gaji dan manfaat karyawan",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p7",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q7",
+                    "title": "Apa yang dimaksud dengan konsep 'budaya organisasi'?",
+                    "choices": [
+                        "Norma dan nilai yang membentuk karakter perusahaan", 
+                        "Jumlah total karyawan dalam perusahaan", 
+                        "Struktur hierarki perusahaan"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Norma dan nilai yang membentuk karakter perusahaan",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p8",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q8",
+                    "title": "Apa yang menjadi fokus utama dalam proses evaluasi kinerja karyawan?",
+                    "choices": [
+                        "Menetapkan jam kerja karyawan", 
+                        "Menilai kinerja dan pencapaian karyawan", 
+                        "Menentukan promosi karyawan"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Menilai kinerja dan pencapaian karyawan",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p9",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q9",
+                    "title": "Apa manfaat dari program kesejahteraan karyawan?",
+                    "choices": [
+                        "Mengurangi tanggung jawab HR", 
+                        "Meningkatkan kepuasan dan kesejahteraan karyawan", 
+                        "Menentukan struktur organisasi perusahaan"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Meningkatkan kepuasan dan kesejahteraan karyawan",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p10",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q10",
+                    "title": "Apa yang dimaksud dengan rekrutmen pasif dalam HR?",
+                    "choices": [
+                        "Proses perekrutan yang agresif", 
+                        "Mencari kandidat yang sedang mencari pekerjaan", 
+                        "Menyusun tes rekruitmen untuk karyawan baru"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Mencari kandidat yang sedang mencari pekerjaan",
+                    "isRequired": true
+                }
+            ]
+        }
+    ],
+    "showPrevButton": false
+}

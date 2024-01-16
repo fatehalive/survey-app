@@ -1,0 +1,185 @@
+{
+    "pages": [
+        {
+            "name": "p1",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q1",
+                    "title": "What is the primary role of Human Resources in an organization?",
+                    "choices": [
+                        "Handling company finances",
+                        "Managing human resources and employee relations",
+                        "Designing products and services"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Managing human resources and employee relations",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p2",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q2",
+                    "title": "What does onboarding mean in the context of Human Resources?",
+                    "choices": [
+                        "Employee recruitment process",
+                        "Integration and orientation process for new employees",
+                        "Employee performance assessment"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Integration and orientation process for new employees",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p3",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q3",
+                    "title": "What is the goal of the employee selection process?",
+                    "choices": [
+                        "Decreasing company productivity",
+                        "Finding employees suitable for the company's needs",
+                        "Determining employee salaries"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Finding employees suitable for the company's needs",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p4",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q4",
+                    "title": "What is the purpose of employee training and development?",
+                    "choices": [
+                        "Determining employee salaries",
+                        "Developing skills and knowledge of employees",
+                        "Handling workplace conflicts"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Developing skills and knowledge of employees",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p5",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q5",
+                    "title": "What does 'diversity' mean in HR context?",
+                    "choices": [
+                        "Uniformity in employee backgrounds",
+                        "Employee involvement in social activities",
+                        "Diversity in employee backgrounds, experiences, and characteristics"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Diversity in employee backgrounds, experiences, and characteristics",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p6",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q6",
+                    "title": "What is the role of the compensation and benefits department in HR?",
+                    "choices": [
+                        "Setting company rules and regulations",
+                        "Managing employee salaries and benefits",
+                        "Formulating recruitment policies"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Managing employee salaries and benefits",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p7",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q7",
+                    "title": "What is the concept of 'organizational culture'?",
+                    "choices": [
+                        "Norms and values that shape the company's character",
+                        "Total number of employees in the company",
+                        "Company's hierarchical structure"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Norms and values that shape the company's character",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p8",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q8",
+                    "title": "What is the primary focus of the employee performance evaluation process?",
+                    "choices": [
+                        "Setting employee working hours",
+                        "Assessing employee performance and achievements",
+                        "Determining employee promotions"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Assessing employee performance and achievements",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p9",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q9",
+                    "title": "What are the benefits of an employee wellness program?",
+                    "choices": [
+                        "Reducing HR responsibilities",
+                        "Increasing employee satisfaction and well-being",
+                        "Determining the company's organizational structure"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Increasing employee satisfaction and well-being",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "p10",
+            "elements": [
+                {
+                    "type": "radiogroup",
+                    "name": "q10",
+                    "title": "What does passive recruitment mean in HR?",
+                    "choices": [
+                        "Aggressive recruitment process",
+                        "Seeking candidates actively looking for jobs",
+                        "Creating recruitment tests for new employees"
+                    ],
+                    "choicesOrder": "random",
+                    "correctAnswer": "Seeking candidates actively looking for jobs",
+                    "isRequired": true
+                }
+            ]
+        }
+    ],
+    "showPrevButton": false
+}

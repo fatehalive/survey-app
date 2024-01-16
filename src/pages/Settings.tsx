@@ -1,20 +1,20 @@
 import React, { Fragment } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Button, Typography } from '@mui/material'
 
-export const About: React.FC = () => {
+export const Settings: React.FC = () => {
   const navigate = useNavigate()
 
   return (
     <Fragment>
-      <Typography>Survee 0.1.0</Typography>
-      <Button
+      <p>Survee 0.1.0</p>
+      <button
         type="button"
+        className="btn btn-small"
         cy-data="go-back-button"
         onClick={() => navigate('/')}
       >
-        Back
-      </Button>
+        back
+      </button>
     </Fragment>
   )
 }

@@ -1,20 +1,22 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Container } from '@mui/material'
 
-import { Navbar } from './components/Navbar'
-import { About } from './pages/About'
-import { Home } from './pages/Home'
+import { Header, Footer } from './components'
+import { Home, About, Quiz } from './pages'
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <Navbar />
-      <div className="container">
+      <Header />
+      <Container maxWidth="md">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/survey" element={<Quiz />} />
         </Routes>
-      </div>
+      </Container>
+      <Footer />
     </BrowserRouter>
   )
 }
