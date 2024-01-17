@@ -181,5 +181,10 @@
             ]
         }
     ],
-    "showPrevButton": false
+    "cookieName": "quiz",
+    "completedHtml": "<h1>Thank You for completing the survey</h1><br/><button onClick='clearData()'>Reset</button>",
+    "comppletedBeforeHtml": "<h1>Our records show that you have already completed this survey.</h1><br/><button onClick='clearData()'>Reset</button>",
+    "maxTimeToFinish": 300,
+    "showPrevButton": false,
+    "showTimerPanel": "bottom"
 }

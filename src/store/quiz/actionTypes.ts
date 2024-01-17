@@ -1,0 +1,1 @@
+export const SET_SURVEY_ANSWER = 'SET_SURVEY_ANSWER'

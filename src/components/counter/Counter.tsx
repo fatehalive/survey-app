@@ -12,14 +12,11 @@ const Counter: React.FC = () => {
         <div className="col s12 m6">
           <div className="card blue-grey darken-1">
             <div className="card-content white-text">
-              <span className="card-title">Counter component</span>
+              <span className="card-title">Timer</span>
               <h4>
-                Counter: <strong>{count}</strong>
+                Timer: <strong>{count}</strong> minute
               </h4>
-              <p>
-                Here you can increment and decrement counter value using buttons
-                below. All the state updates are performed via redux actions.
-              </p>
+              <p>Here you can set timer quiz value in minute.</p>
             </div>
             <div className="card-action">
               <div className="group">

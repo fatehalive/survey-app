@@ -1,12 +1,13 @@
 import React, { Fragment } from 'react'
 import { useNavigate } from 'react-router-dom'
+import Counter from '../components/counter'
 
 export const Settings: React.FC = () => {
   const navigate = useNavigate()
 
   return (
     <Fragment>
-      <p>Survee 0.1.0</p>
+      <Counter />
       <button
         type="button"
         className="btn btn-small"

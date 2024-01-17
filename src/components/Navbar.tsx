@@ -21,7 +21,6 @@ export const Navbar: React.FC = () => {
     if (event.target) {
       const targetElement = event.target as HTMLElement
       const route = targetElement.getAttribute('data-valuetext')
-      console.log(targetElement)
       if (route) {
         navigate(route)
       }

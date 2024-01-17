@@ -14,7 +14,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Mengelola sumber daya manusia dan hubungan kerja",
-                    "isRequired": true
+                    "enableIf": "{q1} empty"
                 }
             ]
         },
@@ -32,7 +32,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Proses integrasi dan orientasi karyawan baru",
-                    "isRequired": true
+                    "enableIf": "{q2} empty"
                 }
             ]
         },
@@ -50,7 +50,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Menemukan karyawan yang sesuai dengan kebutuhan perusahaan",
-                    "isRequired": true
+                    "enableIf": "{q3} empty"
                 }
             ]
         },
@@ -68,7 +68,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Mengembangkan keterampilan dan pengetahuan karyawan",
-                    "isRequired": true
+                    "enableIf": "{q4} empty"
                 }
             ]
         },
@@ -86,7 +86,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Keberagaman dalam latar belakang, pengalaman, dan karakteristik karyawan",
-                    "isRequired": true
+                    "enableIf": "{q5} empty"
                 }
             ]
         },
@@ -104,7 +104,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Mengelola gaji dan manfaat karyawan",
-                    "isRequired": true
+                    "enableIf": "{q6} empty"
                 }
             ]
         },
@@ -122,7 +122,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Norma dan nilai yang membentuk karakter perusahaan",
-                    "isRequired": true
+                    "enableIf": "{q7} empty"
                 }
             ]
         },
@@ -140,7 +140,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Menilai kinerja dan pencapaian karyawan",
-                    "isRequired": true
+                    "enableIf": "{q8} empty"
                 }
             ]
         },
@@ -158,7 +158,7 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Meningkatkan kepuasan dan kesejahteraan karyawan",
-                    "isRequired": true
+                    "enableIf": "{q9} empty"
                 }
             ]
         },
@@ -176,10 +176,15 @@
                     ],
                     "choicesOrder": "random",
                     "correctAnswer": "Mencari kandidat yang sedang mencari pekerjaan",
-                    "isRequired": true
+                    "enableIf": "{q10} empty"
                 }
             ]
         }
     ],
-    "showPrevButton": false
+    "cookieName": "quiz",
+    "completedHtml": "<h1>Terima kasih telah mengisi quiz ini!</h1><br/><button onClick='clearData()'>Reset</button>",
+    "comppletedAfterHtml": "<h1>Maaf, data kami menunjukkan Anda telah menyelesaikan quiz ini.</h1><br/><button onClick='clearData()'>Reset</button>",
+    "maxTimeToFinish": 300,
+    "showPrevButton": false,
+    "showTimerPanel": "bottom"
 }

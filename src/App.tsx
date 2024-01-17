@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Container } from '@mui/material'
 
 import { Header, Footer } from './components'
-import { Home, About, Quiz } from './pages'
+import { Home, About, Quiz, Settings } from './pages'
 
 const App: React.FC = () => {
   return (
@@ -13,6 +13,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="/survey" element={<Quiz />} />
         </Routes>
       </Container>
